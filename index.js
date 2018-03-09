@@ -247,10 +247,3 @@ var MatchClock = function (options) {
 		}
 	}
 }
-
-// 请保证el是个足够宽的容器，否则元素会折行
-var mc = new MatchClock({
-	el: 'match',
-	scale: 0.5
-})
-mc.start()

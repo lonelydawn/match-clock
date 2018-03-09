@@ -7,5 +7,13 @@
 <body>
 	<div id="match"></div>
 	<script type="text/javascript" src="./index.js"></script>
+	<script type="text/javascript">
+		// 请保证el是个足够宽的容器，否则元素会折行
+		var mc = new MatchClock({
+			el: 'match',
+			scale: 0.3
+		})
+		mc.start()
+	</script>
 </body>
 </html>
