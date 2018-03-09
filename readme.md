@@ -4,9 +4,6 @@
 
 ## 引用
 
-* 请保证el是个足够宽的容器，否则元素会折行。
-* 你可以通过改变 scale 数值对时钟进行缩放。
-
 ```html
 <link rel="stylesheet" type="text/css" href="./index.css">
 <div id="match"></div>
@@ -20,3 +17,5 @@
 </script>
 ```
 
+- 请保证el是个足够宽的容器，否则元素会折行。
+- 你可以通过改变 scale 数值对时钟进行缩放。
